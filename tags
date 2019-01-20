@@ -1,0 +1,223 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+## Available Scripts	README.md	/^## Available Scripts$/;"	h
+### `npm start`	README.md	/^### `npm start`$/;"	h
+### `npm test`	README.md	/^### `npm test`$/;"	h
+### `npm run build`	README.md	/^### `npm run build`$/;"	h
+### `npm run eject`	README.md	/^### `npm run eject`$/;"	h
+## Learn More	README.md	/^## Learn More$/;"	h
+### Code Splitting	README.md	/^### Code Splitting$/;"	h
+### Analyzing the Bundle Size	README.md	/^### Analyzing the Bundle Size$/;"	h
+### Making a Progressive Web App	README.md	/^### Making a Progressive Web App$/;"	h
+### Advanced Configuration	README.md	/^### Advanced Configuration$/;"	h
+### Deployment	README.md	/^### Deployment$/;"	h
+### `npm run build` fails to minify	README.md	/^### `npm run build` fails to minify$/;"	h
+div	src/App.test.js	/^  const div = document.createElement('div');$/;"	V
+if	src/serviceWorker.js	/^  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {$/;"	M
+publicUrl	src/serviceWorker.js	/^    const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);$/;"	V
+if	src/serviceWorker.js	/^    if (publicUrl.origin !== window.location.origin) {$/;"	M
+if	src/serviceWorker.js	/^      if (isLocalhost) {$/;"	M
+registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	F
+installingWorker	src/serviceWorker.js	/^        const installingWorker = registration.installing;$/;"	V
+if	src/serviceWorker.js	/^        if (installingWorker == null) {$/;"	M
+if	src/serviceWorker.js	/^          if (installingWorker.state === 'installed') {$/;"	M
+if	src/serviceWorker.js	/^            if (navigator.serviceWorker.controller) {$/;"	M
+if	src/serviceWorker.js	/^              if (config && config.onUpdate) {$/;"	M
+if	src/serviceWorker.js	/^              if (config && config.onSuccess) {$/;"	M
+checkValidServiceWorker	src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	F
+contentType	src/serviceWorker.js	/^      const contentType = response.headers.get('content-type');$/;"	V
+if	src/serviceWorker.js	/^  if ('serviceWorker' in navigator) {$/;"	M
+root	public/index.html	/^    <div id="root"><\/div>$/;"	i
+render	containers/Home.js	/^  render() {$/;"	M
+Router	src/index.js	/^import { BrowserRouter as Router } from "react-router-dom";$/;"	I
+serviceWorker	src/index.js	/^import * as serviceWorker from '.\/serviceWorker';$/;"	I
+mandatorySignIn	src/index.js	/^    mandatorySignIn: true,$/;"	P
+region	src/index.js	/^    region: config.cognito.REGION,$/;"	P
+userPoolId	src/index.js	/^    userPoolId: config.cognito.USER_POOL_ID,$/;"	P
+identityPoolId	src/index.js	/^    identityPoolId: config.cognito.IDENTITY_POOL_ID,$/;"	P
+userPoolWebClientId	src/index.js	/^    userPoolWebClientId: config.cognito.APP_CLIENT_ID$/;"	P
+region	src/index.js	/^    region: config.s3.REGION,$/;"	P
+bucket	src/index.js	/^    bucket: config.s3.BUCKET,$/;"	P
+identityPoolId	src/index.js	/^    identityPoolId: config.cognito.IDENTITY_POOL_ID$/;"	P
+endpoints	src/index.js	/^    endpoints: [$/;"	P
+name	src/index.js	/^        name: "notes",$/;"	P
+endpoint	src/index.js	/^        endpoint: config.apiGateway.URL,$/;"	P
+region	src/index.js	/^        region: config.apiGateway.REGION$/;"	P
+App	src/App.js	/^class App extends Component {$/;"	C
+constructor	src/App.js	/^  constructor(props) {$/;"	M
+state	src/App.js	/^    this.state = {$/;"	M
+isAuthenticated	src/App.js	/^      isAuthenticated: false,$/;"	P
+isAuthenticating	src/App.js	/^      isAuthenticating: true$/;"	P
+catch	src/App.js	/^    catch (e) {$/;"	M
+if	src/App.js	/^      if (e !== 'No current user') {$/;"	M
+render	src/App.js	/^  render() {$/;"	M
+childProps	src/App.js	/^    const childProps = {$/;"	O
+isAuthenticated	src/App.js	/^      isAuthenticated: this.state.isAuthenticated,$/;"	P
+userHasAuthenticated	src/App.js	/^      userHasAuthenticated: this.userHasAuthenticated$/;"	P
+className	src/components/LoaderButton.js	/^  className = "",$/;"	P
+disabled	src/components/LoaderButton.js	/^  disabled = false,$/;"	P
+className	src/components/LoaderButton.js	/^    className={`LoaderButton ${className}`}$/;"	P
+disabled	src/components/LoaderButton.js	/^    disabled={disabled || isLoading}$/;"	P
+constructor	src/containers/Signup.js	/^  constructor(props) {$/;"	M
+state	src/containers/Signup.js	/^    this.state = {$/;"	M
+isLoading	src/containers/Signup.js	/^      isLoading: false,$/;"	P
+email	src/containers/Signup.js	/^      email: "",$/;"	P
+password	src/containers/Signup.js	/^      password: "",$/;"	P
+confirmPassword	src/containers/Signup.js	/^      confirmPassword: "",$/;"	P
+confirmationCode	src/containers/Signup.js	/^      confirmationCode: "",$/;"	P
+newUser	src/containers/Signup.js	/^      newUser: null$/;"	P
+validateForm	src/containers/Signup.js	/^  validateForm() {$/;"	M
+validateConfirmationForm	src/containers/Signup.js	/^  validateConfirmationForm() {$/;"	M
+username	src/containers/Signup.js	/^        username: this.state.email,$/;"	P
+password	src/containers/Signup.js	/^        password: this.state.password$/;"	P
+renderConfirmationForm	src/containers/Signup.js	/^  renderConfirmationForm() {$/;"	M
+type	src/containers/Signup.js	/^            type="tel"$/;"	P
+value	src/containers/Signup.js	/^            value={this.state.confirmationCode}$/;"	P
+onChange	src/containers/Signup.js	/^            onChange={this.handleChange}$/;"	P
+bsSize	src/containers/Signup.js	/^          bsSize="large"$/;"	P
+disabled	src/containers/Signup.js	/^          disabled={!this.validateConfirmationForm()}$/;"	P
+type	src/containers/Signup.js	/^          type="submit"$/;"	P
+isLoading	src/containers/Signup.js	/^          isLoading={this.state.isLoading}$/;"	P
+text	src/containers/Signup.js	/^          text="Verify"$/;"	P
+loadingText	src/containers/Signup.js	/^          loadingText="Verifying…"$/;"	P
+renderForm	src/containers/Signup.js	/^  renderForm() {$/;"	M
+type	src/containers/Signup.js	/^            type="email"$/;"	P
+value	src/containers/Signup.js	/^            value={this.state.email}$/;"	P
+onChange	src/containers/Signup.js	/^            onChange={this.handleChange}$/;"	P
+value	src/containers/Signup.js	/^            value={this.state.password}$/;"	P
+onChange	src/containers/Signup.js	/^            onChange={this.handleChange}$/;"	P
+type	src/containers/Signup.js	/^            type="password"$/;"	P
+value	src/containers/Signup.js	/^            value={this.state.confirmPassword}$/;"	P
+onChange	src/containers/Signup.js	/^            onChange={this.handleChange}$/;"	P
+type	src/containers/Signup.js	/^            type="password"$/;"	P
+bsSize	src/containers/Signup.js	/^          bsSize="large"$/;"	P
+disabled	src/containers/Signup.js	/^          disabled={!this.validateForm()}$/;"	P
+type	src/containers/Signup.js	/^          type="submit"$/;"	P
+isLoading	src/containers/Signup.js	/^          isLoading={this.state.isLoading}$/;"	P
+text	src/containers/Signup.js	/^          text="Signup"$/;"	P
+loadingText	src/containers/Signup.js	/^          loadingText="Signing up…"$/;"	P
+render	src/containers/Signup.js	/^  render() {$/;"	M
+MAX_ATTACHMENT_SIZE	src/config.js	/^  MAX_ATTACHMENT_SIZE: 5000000,$/;"	P
+REGION	src/config.js	/^    REGION: "us-east-1",$/;"	P
+BUCKET	src/config.js	/^    BUCKET: "notes-app-uploads-hihihi"$/;"	P
+REGION	src/config.js	/^    REGION: "us-east-1",$/;"	P
+URL	src/config.js	/^    URL: "https:\/\/89r5vlxsub.execute-api.us-east-1.amazonaws.com\/prod"$/;"	P
+REGION	src/config.js	/^    REGION: "us-east-1",$/;"	P
+USER_POOL_ID	src/config.js	/^    USER_POOL_ID: "us-east-1_Vexvjx1Tt",$/;"	P
+APP_CLIENT_ID	src/config.js	/^    APP_CLIENT_ID: "6k0drc9ev3hihfdo5a5g13mj9m",$/;"	P
+IDENTITY_POOL_ID	src/config.js	/^    IDENTITY_POOL_ID: "us-east-1:c6779970-80ff-4937-87f5-63c0292f82c4"$/;"	P
+contentType	src/libs/awsLib.js	/^    contentType: file.type$/;"	P
+constructor	src/containers/NewNote.js	/^  constructor(props) {$/;"	M
+file	src/containers/NewNote.js	/^    this.file = null;$/;"	P
+state	src/containers/NewNote.js	/^    this.state = {$/;"	M
+isLoading	src/containers/NewNote.js	/^      isLoading: null,$/;"	P
+content	src/containers/NewNote.js	/^      content: ""$/;"	P
+validateForm	src/containers/NewNote.js	/^  validateForm() {$/;"	M
+file	src/containers/NewNote.js	/^    this.file = event.target.files[0];$/;"	P
+if	src/containers/NewNote.js	/^    if (this.file && this.file.size > config.MAX_ATTACHMENT_SIZE) {$/;"	M
+content	src/containers/NewNote.js	/^        content: this.state.content$/;"	P
+createNote	src/containers/NewNote.js	/^  createNote(note) {$/;"	M
+body	src/containers/NewNote.js	/^      body: note$/;"	P
+render	src/containers/NewNote.js	/^  render() {$/;"	M
+onChange	src/containers/NewNote.js	/^              onChange={this.handleChange}$/;"	P
+value	src/containers/NewNote.js	/^              value={this.state.content}$/;"	P
+componentClass	src/containers/NewNote.js	/^              componentClass="textarea"$/;"	P
+bsStyle	src/containers/NewNote.js	/^            bsStyle="primary"$/;"	P
+bsSize	src/containers/NewNote.js	/^            bsSize="large"$/;"	P
+disabled	src/containers/NewNote.js	/^            disabled={!this.validateForm()}$/;"	P
+type	src/containers/NewNote.js	/^            type="submit"$/;"	P
+isLoading	src/containers/NewNote.js	/^            isLoading={this.state.isLoading}$/;"	P
+text	src/containers/NewNote.js	/^            text="Create"$/;"	P
+loadingText	src/containers/NewNote.js	/^            loadingText="Creating…"$/;"	P
+constructor	src/containers/Home.js	/^  constructor(props) {$/;"	M
+state	src/containers/Home.js	/^    this.state = {$/;"	M
+isLoading	src/containers/Home.js	/^      isLoading: true,$/;"	P
+notes	src/containers/Home.js	/^      notes: []$/;"	P
+if	src/containers/Home.js	/^    if (!this.props.isAuthenticated) {$/;"	M
+notes	src/containers/Home.js	/^      const notes = await this.notes();$/;"	V
+notes	src/containers/Home.js	/^  notes() {$/;"	M
+renderNotesList	src/containers/Home.js	/^  renderNotesList(notes) {$/;"	M
+key	src/containers/Home.js	/^              key={note.noteId}$/;"	P
+to	src/containers/Home.js	/^              to={`\/notes\/${note.noteId}`}$/;"	P
+key	src/containers/Home.js	/^              key="new"$/;"	P
+to	src/containers/Home.js	/^              to="\/notes\/new"$/;"	P
+renderLander	src/containers/Home.js	/^  renderLander() {$/;"	M
+renderNotes	src/containers/Home.js	/^  renderNotes() {$/;"	M
+render	src/containers/Home.js	/^  render() {$/;"	M
+constructor	src/containers/Notes.js	/^  constructor(props) {$/;"	M
+file	src/containers/Notes.js	/^    this.file = null;$/;"	P
+state	src/containers/Notes.js	/^    this.state = {$/;"	M
+isLoading	src/containers/Notes.js	/^      isLoading: null,$/;"	P
+isDeleting	src/containers/Notes.js	/^      isDeleting: null,$/;"	P
+note	src/containers/Notes.js	/^      note: null,$/;"	P
+content	src/containers/Notes.js	/^      content: "",$/;"	P
+attachmentURL	src/containers/Notes.js	/^      attachmentURL: null$/;"	P
+note	src/containers/Notes.js	/^      const note = await this.getNote();$/;"	V
+if	src/containers/Notes.js	/^      if (attachment) {$/;"	M
+attachmentURL	src/containers/Notes.js	/^        attachmentURL = await Storage.vault.get(attachment);$/;"	P
+getNote	src/containers/Notes.js	/^  getNote() {$/;"	M
+saveNote	src/containers/Notes.js	/^  saveNote(note) {$/;"	M
+body	src/containers/Notes.js	/^      body: note$/;"	P
+deleteNote	src/containers/Notes.js	/^  deleteNote() {$/;"	M
+validateForm	src/containers/Notes.js	/^  validateForm() {$/;"	M
+formatFilename	src/containers/Notes.js	/^  formatFilename(str) {$/;"	M
+file	src/containers/Notes.js	/^    this.file = event.target.files[0];$/;"	P
+if	src/containers/Notes.js	/^    if (this.file && this.file.size > config.MAX_ATTACHMENT_SIZE) {$/;"	M
+if	src/containers/Notes.js	/^      if (this.file) {$/;"	M
+attachment	src/containers/Notes.js	/^        attachment = await s3Upload(this.file);$/;"	P
+content	src/containers/Notes.js	/^        content: this.state.content,$/;"	P
+attachment	src/containers/Notes.js	/^        attachment: attachment || this.state.note.attachment$/;"	P
+if	src/containers/Notes.js	/^    if (!confirmed) {$/;"	M
+render	src/containers/Notes.js	/^  render() {$/;"	M
+onChange	src/containers/Notes.js	/^                onChange={this.handleChange}$/;"	P
+value	src/containers/Notes.js	/^                value={this.state.content}$/;"	P
+componentClass	src/containers/Notes.js	/^                componentClass="textarea"$/;"	P
+target	src/containers/Notes.js	/^                    target="_blank"$/;"	P
+rel	src/containers/Notes.js	/^                    rel="noopener noreferrer"$/;"	P
+href	src/containers/Notes.js	/^                    href={this.state.attachmentURL}$/;"	P
+bsStyle	src/containers/Notes.js	/^              bsStyle="primary"$/;"	P
+bsSize	src/containers/Notes.js	/^              bsSize="large"$/;"	P
+disabled	src/containers/Notes.js	/^              disabled={!this.validateForm()}$/;"	P
+type	src/containers/Notes.js	/^              type="submit"$/;"	P
+isLoading	src/containers/Notes.js	/^              isLoading={this.state.isLoading}$/;"	P
+text	src/containers/Notes.js	/^              text="Save"$/;"	P
+loadingText	src/containers/Notes.js	/^              loadingText="Saving…"$/;"	P
+bsStyle	src/containers/Notes.js	/^              bsStyle="danger"$/;"	P
+bsSize	src/containers/Notes.js	/^              bsSize="large"$/;"	P
+isLoading	src/containers/Notes.js	/^              isLoading={this.state.isDeleting}$/;"	P
+onClick	src/containers/Notes.js	/^              onClick={this.handleDelete}$/;"	P
+text	src/containers/Notes.js	/^              text="Delete"$/;"	P
+loadingText	src/containers/Notes.js	/^              loadingText="Deleting…"$/;"	P
+render	src/components/AuthenticatedRoute.js	/^    render={props =>$/;"	P
+to	src/components/AuthenticatedRoute.js	/^            to={`\/login?redirect=${props.location.pathname}${props.location$/;"	P
+querystring	src/components/UnauthenticatedRoute.js	/^function querystring(name, url = window.location.href) {$/;"	F
+name	src/components/UnauthenticatedRoute.js	/^  name = name.replace(\/[[]]\/g, "\\\\$&");$/;"	P
+results	src/components/UnauthenticatedRoute.js	/^  const results = regex.exec(url);$/;"	V
+if	src/components/UnauthenticatedRoute.js	/^  if (!results) {$/;"	M
+if	src/components/UnauthenticatedRoute.js	/^  if (!results[2]) {$/;"	M
+redirect	src/components/UnauthenticatedRoute.js	/^  const redirect = querystring("redirect");$/;"	V
+render	src/components/UnauthenticatedRoute.js	/^      render={props =>$/;"	P
+to	src/components/UnauthenticatedRoute.js	/^              to={redirect === "" || redirect === null ? "\/" : redirect}$/;"	P
+constructor	src/containers/Login.js	/^  constructor(props) {$/;"	M
+state	src/containers/Login.js	/^    this.state = {$/;"	M
+email	src/containers/Login.js	/^      email: "",$/;"	P
+password	src/containers/Login.js	/^      password: "",$/;"	P
+isLoading	src/containers/Login.js	/^      isLoading: false$/;"	P
+validateForm	src/containers/Login.js	/^  validateForm() {$/;"	M
+render	src/containers/Login.js	/^  render() {$/;"	M
+type	src/containers/Login.js	/^              type="email"$/;"	P
+value	src/containers/Login.js	/^              value={this.state.email}$/;"	P
+onChange	src/containers/Login.js	/^              onChange={this.handleChange}$/;"	P
+value	src/containers/Login.js	/^              value={this.state.password}$/;"	P
+onChange	src/containers/Login.js	/^              onChange={this.handleChange}$/;"	P
+type	src/containers/Login.js	/^              type="password"$/;"	P
+bsSize	src/containers/Login.js	/^            bsSize="large"$/;"	P
+disabled	src/containers/Login.js	/^            disabled={!this.validateForm()}$/;"	P
+type	src/containers/Login.js	/^            type="submit"$/;"	P
+isLoading	src/containers/Login.js	/^            isLoading={this.state.isLoading}$/;"	P
+text	src/containers/Login.js	/^            text="Login"$/;"	P
+loadingText	src/containers/Login.js	/^            loadingText="Logging in ..."$/;"	P
